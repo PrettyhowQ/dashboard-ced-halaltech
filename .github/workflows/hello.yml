@@ -1,0 +1,7 @@
+name: Hello World CI
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "✅ Workflow Hello World exécuté avec succès !"
